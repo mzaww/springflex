@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            padding: 20px;
+            background-color: #f0f8ff; /* Light Sky Blue - Spring-themed color */
+        }
+
+        .card {
+            max-width: 300px;
+            border: 2px solid #7cfc00; /* Lawn Green - Spring-themed color */
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 128, 0, 0.3); /* Green - Spring-themed color */
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 2px solid #7cfc00; /* Lawn Green - Spring-themed color */
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        h3 {
+            color: #228b22; /* Forest Green - Spring-themed color */
+        }
+
+        p {
+            color: #696969; /* Dim Gray - Spring-themed color */
+        }
+    </style>
+    <title>Spring Inspiration</title>
+</head>
+<body>
+    <!-- Vacation Card -->
+    <div class="card">
+        <img src="vacation_image.jpg" alt="Spring Vacation">
+        <div class="card-content">
+            <h3>Spring Vacation</h3>
+            <p>Escape to a blooming paradise this Spring. Discover the best vacation spots for a rejuvenating experience.</p>
+        </div>
+    </div>
+
+    <!-- Landscape Card -->
+    <div class="card">
+        <img src="landscape_image.jpg" alt="Spring Landscape">
+        <div class="card-content">
+            <h3>Scenic Landscapes</h3>
+            <p>Explore the breathtaking beauty of Spring landscapes. From vibrant flowers to lush greenery, nature at its finest.</p>
+        </div>
+    </div>
+
+    <!-- Recipe Card -->
+    <div class="card">
+        <img src="recipe_image.jpg" alt="Spring Recipes">
+        <div class="card-content">
+            <h3>Springtime Recipes</h3>
+            <p>Delight your taste buds with fresh and seasonal Spring recipes. A collection of delicious and easy-to-make dishes.</p>
+        </div>
+    </div>
+
+    <!-- Easter Card -->
+    <div class="card">
+        <img src="easter_image.jpg" alt="Easter Celebration">
+        <div class="card-content">
+            <h3>Easter Celebration</h3>
+            <p>Get ready for Easter festivities. Explore creative ideas for decorating, egg hunts, and delicious Easter treats.</p>
+        </div>
+    </div>
+
+    <!-- Cookie Card -->
+    <div class="card">
+        <img src="cookie_image.jpg" alt="Spring Cookies">
+        <div class="card-content">
+            <h3>Spring Cookies</h3>
+            <p>Bake delightful Spring-themed cookies. Discover recipes and decorating tips for making delicious treats.</p>
+        </div>
+    </div>
+</body>
+</html>
